@@ -1,0 +1,13 @@
+// const express = require("express")
+// const router = express.Router();
+// const usermodel=require("../models/users")
+
+// router.get("/", async (req, res) => {
+//     //  file=req.body('data');
+//     // JSON.parse(file).name;
+
+    
+    
+
+// })
+// module.exports = router;

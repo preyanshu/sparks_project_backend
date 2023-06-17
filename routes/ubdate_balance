@@ -1,0 +1,48 @@
+const express = require("express")
+const router = express.Router();
+const usermodel=require("../models/users")
+
+router.post("/", async (req, res) => {
+
+    try {
+        let data=req.body;
+    console.log("for ubdate")
+    console.log(data)
+
+    let entry=await usermodel.findOne(
+        {_id:data.Id1
+        })
+
+    console.log(entry)
+    
+    entry.set({currentBalance:data.Id1_balance});
+  
+await entry.save().then(console.log("ubdated 1st user"));
+    let entry2=await usermodel.findOne(
+        {_id:data.Id2
+        })
+
+    console.log(entry2)
+    
+    entry2.set({currentBalance:data.Id2_balance});
+  
+await entry2.save().then(console.log("ubdated 2nd user"));
+
+res.json({success : "success"});
+    
+    
+    
+        
+    } catch (error) {
+        console.log(error.message)
+        
+    }
+    
+
+    
+
+    
+    
+
+})
+module.exports = router;

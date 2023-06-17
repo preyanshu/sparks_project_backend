@@ -1,0 +1,13 @@
+const express = require("express")
+const router = express.Router();
+const usermodel=require("../models/users")
+
+router.get("/", async (req, res) => {
+    let data=await usermodel.find();
+    res.json(data);
+    // file=req.header('data');
+    // console.log((JSON.parse(file).name));
+
+
+})
+module.exports = router;

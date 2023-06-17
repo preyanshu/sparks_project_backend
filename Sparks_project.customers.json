@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "64807fa11c13dd2d7009e1e4"
+  },
+  "name": "Tanishq verma",
+  "currentBalance": null,
+  "email": "tv@gmail.com"
+},
+{
+  "_id": {
+    "$oid": "64807fd01c13dd2d7009e1e5"
+  },
+  "name": "Tanishq chauhan",
+  "currentBalance": null,
+  "email": "cc@gmail.com"
+},
+{
+  "_id": {
+    "$oid": "64807ff81c13dd2d7009e1e6"
+  },
+  "name": "Utkarsh Arora",
+  "currentBalance": "989999989900998",
+  "email": "uyuy@gmail.com"
+},
+{
+  "_id": {
+    "$oid": "6480801e1c13dd2d7009e1e7"
+  },
+  "name": "Riyanshu",
+  "currentBalance": "10000005",
+  "email": "meel@gmail.com"
+},
+{
+  "_id": {
+    "$oid": "648080441c13dd2d7009e1e8"
+  },
+  "name": "harshal",
+  "currentBalance": "-1",
+  "email": "harshalsontakke@gmail.com"
+},
+{
+  "_id": {
+    "$oid": "6480808c1c13dd2d7009e1e9"
+  },
+  "name": "ujjwal",
+  "currentBalance": "-998",
+  "email": "hr@gmail.com"
+},
+{
+  "_id": {
+    "$oid": "648080a41c13dd2d7009e1ea"
+  },
+  "name": "Pranav",
+  "currentBalance": "0",
+  "email": "kota@gmail.com"
+},
+{
+  "_id": {
+    "$oid": "648080cc1c13dd2d7009e1eb"
+  },
+  "name": "nature",
+  "currentBalance": "10100006",
+  "email": "nature@gmail.com"
+},
+{
+  "_id": {
+    "$oid": "6481a94353867bb7bcbeb73f"
+  },
+  "name": "Preyanshu",
+  "email": "mishrapreyanshu@gmail.com",
+  "currentBalance": "21009001"
+},
+{
+  "_id": {
+    "$oid": "6481a95953867bb7bcbeb740"
+  },
+  "name": "Sushant",
+  "email": "sushi@gmail.com",
+  "currentBalance": "8999999990000"
+}]

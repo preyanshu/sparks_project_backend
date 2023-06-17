@@ -1,0 +1,38 @@
+const express = require("express")
+const router = express.Router();
+const transfermodel=require("../models/transferDetails")
+
+router.post("/", async (req, res) => {
+
+  try {
+    data=req.body;
+     
+    console.log("for transfer")
+   console.log(data)
+   // data=JSON.parse(file).name;
+     
+   const details = transfermodel({
+       
+       transferTo:data.transferTo
+       ,
+       transferFrom:data.transferFrom,
+       amount:data.amount
+      
+     })
+   details.save().then(()=>{
+        
+       console.log("sAVED")
+       res.json(req.body);
+       })
+    
+  } catch (error) {
+    console.log(error.message)
+    
+  }
+    
+
+    
+    
+
+})
+module.exports = router;
